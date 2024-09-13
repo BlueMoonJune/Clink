@@ -4,13 +4,16 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Clink;
 
-public class Game1 : Game
+public class Main : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+	public static Main instance;
 
-    public Game1()
+
+    public Main()
     {
+		instance = this;
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
