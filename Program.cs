@@ -1,3 +1,3 @@
 ﻿
-using var game = new Clink.Game1();
+using var game = new Clink.Main();
 game.Run();
