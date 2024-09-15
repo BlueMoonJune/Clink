@@ -1,3 +1,4 @@
+/*
 using MonoGame.Framework
 
 
@@ -6,3 +7,4 @@ public static class TilesetGenerator {
 		Texture2D tex =
 	}
 }
+*/
